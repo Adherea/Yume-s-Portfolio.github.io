@@ -1,0 +1,104 @@
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  a {
+    transition: 0.3s linear;
+    text-decoration: none;
+  }
+}
+button {
+  transition: 0.4s linear;
+}
+
+#home {
+  padding: 6.3rem 1.3rem;
+}
+
+p {
+  font-size: 20px;
+}
+
+img {
+  padding: 2.3rem 0;
+}
+
+#skill {
+  padding: 8.8rem 0;
+  h1 {
+    font-size: 20px;
+  }
+  .row {
+    padding: 3rem 0;
+  }
+  .item {
+    padding: 20px 10px;
+  }
+  img {
+    width: 150px;
+    padding: 20px;
+  }
+}
+
+#testimonies {
+  padding: 2.2rem;
+  img {
+    width: 140px;
+    height: 230px;
+    margin: 20px;
+  }
+  .comments {
+    display: flex;
+    background-color: aliceblue;
+    margin: 10px;
+    width: 600px;
+    padding: 2.2rem 1rem;
+    border-radius: 20px;
+  }
+}
+
+.comments {
+  display: flex;
+  background-color: aliceblue;
+  margin: 10px;
+  width: 600px;
+  padding: 2.2rem 1rem;
+  border-radius: 20px;
+}
+
+section {
+  padding: 100px 0;
+}
+// ちょうどう！ selese web nya dan tidak kurang lebih dari 50 baris ce es es, 今からはね、ここからデサイーンするようていですね！
+
+main {
+  button:hover {
+    background-image: linear-gradient(to right bottom, #ce56ce, #79b6b6);
+    a {
+      color: #fff;
+    }
+  }
+}
+
+#experience {
+  margin-top: -100px;
+  .background {
+    background-color: #b449b4;
+    padding: 20px;
+    transition: 0.3s linear;
+  }
+  .background:hover {
+    box-shadow: 4px 20px 40px 20px #79b6b6;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #testimonies {
+    .comments {
+      flex-direction: column;
+    }
+  }
+  main {
+    .reason {
+      flex-direction: column-reverse;
+    }
+  }
+}
